@@ -1,13 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "24.0.2"
+    compileSdkVersion 28
 
     defaultConfig {
         applicationId "com.aspsine.fragmentnavigator.demo"
-        minSdkVersion 11
-        targetSdkVersion 24
+        minSdkVersion 17
+        targetSdkVersion 28
         versionCode 3
         versionName "3.0"
     }
@@ -25,8 +24,7 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile project(':library')
-//    compile 'com.github.Aspsine:FragmentNavigator:1.0.2'
-    compile 'com.android.support:appcompat-v7:24.2.0'
-    compile 'com.android.support:design:24.2.0'
+    compile 'com.android.support:appcompat-v7:28.0.0'
+    compile 'com.android.support:design:28.0.0'
     testCompile 'junit:junit:4.12'
 }
