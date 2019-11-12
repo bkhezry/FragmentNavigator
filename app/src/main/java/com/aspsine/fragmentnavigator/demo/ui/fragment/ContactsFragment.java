@@ -2,17 +2,17 @@ package com.aspsine.fragmentnavigator.demo.ui.fragment;
 
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
 import com.aspsine.fragmentnavigator.FragmentNavigator;
 import com.aspsine.fragmentnavigator.demo.R;
-import com.aspsine.fragmentnavigator.demo.ui.widget.TabLayout;
 import com.aspsine.fragmentnavigator.demo.ui.adapter.ChildFragmentAdapter;
+import com.aspsine.fragmentnavigator.demo.ui.widget.TabLayout;
 
 
 /**

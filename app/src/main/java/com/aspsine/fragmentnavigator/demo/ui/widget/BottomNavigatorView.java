@@ -3,11 +3,12 @@ package com.aspsine.fragmentnavigator.demo.ui.widget;
 import android.content.Context;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
-import android.support.v7.widget.LinearLayoutCompat;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+
+import androidx.appcompat.widget.LinearLayoutCompat;
 
 import com.aspsine.fragmentnavigator.demo.R;
 
